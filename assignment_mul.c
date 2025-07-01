@@ -6,7 +6,7 @@ printf("Enter value of a:");
 scanf("%d",&a);
 printf("Enter value of b:");
 scanf("%d",&b);
-a-=b;
-printf("Value of a after sub:%d",a);
+b*=a;
+printf("Value of b after multiplication:%d",b);
 return 0;
 }
